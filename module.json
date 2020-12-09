@@ -1,0 +1,19 @@
+{
+    "name": "combat-logger",
+    "title": "Combat Logger",
+    "description": "A module that tracks combat (and hopefully, some day, plays it back).",
+    "author": "dotfortun",
+    "version": "0.0.1",
+    "minimumCoreVersion": "0.7.0",
+    "scripts": [
+        "scripts/logger.js"
+    ],
+    "packs": [
+        {
+          "name": "logs",
+          "label": "Combat Logs",
+          "path": "packs/combat_log.db",
+          "entity": "JournalEntry"
+        }
+    ]
+  }
